@@ -59,7 +59,7 @@ function hadoop_usage
   hadoop_add_subcommand "portmap" "run a portmap service"
   hadoop_add_subcommand "secondarynamenode" "run the DFS secondary namenode"
   hadoop_add_subcommand "snapshotDiff" "diff two snapshots of a directory or diff the current directory contents with a snapshot"
-  hadoop_add_subcommand "storagepolicies" "list/get/set block storage policies"
+  hadoop_add_subcommand "storagepolicies" "list/get/set/satisfyStoragePolicy block storage policies"
   hadoop_add_subcommand "version" "print the version"
   hadoop_add_subcommand "zkfc" "run the ZK Failover Controller daemon"
   hadoop_generate_usage "${HADOOP_SHELL_EXECNAME}" false
